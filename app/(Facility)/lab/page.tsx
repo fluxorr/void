@@ -1,3 +1,4 @@
+import Cards from "@/components/lab/Cards";
 
 
 export default function page() {
@@ -7,10 +8,10 @@ export default function page() {
                 <div className="mt-4 text-lg mb-2" >WIP</div>
                 <div className="border-1 border-dashed rounded-sm border-neutral-400 h-[80vh] w-[90%] mx-16 flex flex-col  " >
 
-                    <span className="text-sm mx-auto mt-2" >name of stuff here.</span>
+                    <span className="text-sm mx-auto mt-2" >Cards...</span>
 
                     <div className="flex-1 flex justify-center items-center" >
-                        stuff here.
+                        <Cards />
                     </div>
                 </div>
             </div>
