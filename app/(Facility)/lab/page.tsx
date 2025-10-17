@@ -1,4 +1,4 @@
-import Cards from "@/components/lab/Cards";
+
 
 
 export default function page() {
@@ -11,7 +11,7 @@ export default function page() {
                     <span className="text-sm mx-auto mt-2" >Cards...</span>
 
                     <div className="flex-1 flex justify-center items-center" >
-                        <Cards />
+
                     </div>
                 </div>
             </div>
