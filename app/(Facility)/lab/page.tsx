@@ -1,3 +1,4 @@
+import TextOverlay from "@/components/lab/TextOverlay";
 
 
 
@@ -6,15 +7,14 @@ export default function page() {
         <div>
             <div className="flex flex-col justify-center items-center " >
                 <div className="mt-4 text-lg mb-2" >WIP</div>
-                <div className="border-1 border-dashed rounded-sm border-neutral-400 h-[80vh] w-[90%] mx-16 flex flex-col  " >
+                <div className="border-1 border-dashed  border-neutral-400 h-[80vh] w-[90%] mx-16 flex flex-col  " >
 
-                    <span className="text-sm mx-auto mt-2" >Cards...</span>
 
-                    <div className="flex-1 flex justify-center items-center" >
+                    <TextOverlay />
 
-                    </div>
                 </div>
             </div>
-        </div>
+
+        </div >
     )
 }
