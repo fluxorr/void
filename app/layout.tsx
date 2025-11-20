@@ -1,11 +1,42 @@
 'use client'
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, DM_Sans, Crimson_Text, Roboto_Mono } from "next/font/google";
+
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+
+export const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal"],
+});
+
+export const robotoMono = Roboto_Mono({
+  variable: "--font-roboto-mono",
+  subsets: ["latin"],
+  weight: [
+    "100",
+    "200",
+    "300",
+    "400",
+    "500",
+    "600",
+    "700"
+  ],
+  style: "normal",
+});
+
+export const crimsonText = Crimson_Text({
+  variable: "--font-crimson-text",
+  subsets: ["latin"],
+  weight: "400",
+  style: "normal",
 });
 
 const geistMono = Geist_Mono({
@@ -22,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable} ${crimsonText.variable} ${robotoMono.variable} antialiased`}
       >
 
         {children}
