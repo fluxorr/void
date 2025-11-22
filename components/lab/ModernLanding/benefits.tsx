@@ -4,7 +4,7 @@ import { DiscoverButton } from "./ui/discover-button"
 
 const benefits = () => {
     return (
-        <div className="flex flex-row justify-between mx-32 mb-24 border-b-1 border-neutral-500/80  pb-24" >
+        <div className="flex flex-row justify-between mx-32 mb-18 border-b-1 border-neutral-500/80  pb-24" >
             <div className="border-t-1 pt-12 border-dashed border-neutral-500/30" >
                 <div className="font-crimson-text text-5xl tracking-tighter"  >
                     See the Big Picture

@@ -1,6 +1,6 @@
 'use client'
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, DM_Sans, Crimson_Text, Roboto_Mono } from "next/font/google";
+import { Geist, Geist_Mono, DM_Sans, Crimson_Text, Roboto_Mono, Rethink_Sans } from "next/font/google";
 
 import "./globals.css";
 
@@ -8,6 +8,13 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
+
+const rethinkSans = Rethink_Sans({
+  variable: "--font-rethink-sans",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800",],
+})
 
 
 export const dmSans = DM_Sans({
@@ -53,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable} ${crimsonText.variable} ${robotoMono.variable} antialiased selection:bg-cta selection:text-white `}
+        className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable} ${crimsonText.variable} ${robotoMono.variable} ${rethinkSans.variable} antialiased selection:bg-cta selection:text-white `}
       >
 
         {children}
