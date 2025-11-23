@@ -1,23 +1,23 @@
-import { DiscoverButton } from "./ui/discover-button"
+import { DiscoverButton } from "./ui/discover-button";
 
 const SpecsSection = () => {
-    return (
-        <div>
-            <div className="flex justify-center items-center flex-col" >
-                <div className="font-dm-sans text-sm text-neutral-500 ">Specs</div>
-                <div className="font-crimson-text text-5xl my-6" >Why Choose Area?</div>
-                <div className="font-dm-sans text-sm text-neutral-500 max-w-2xl text-center mb-6" >You need a solution that keeps up. That's why we developed Area. A developer-friendly approach to streamline your business. </div>
-                <DiscoverButton />
-
-            </div>
-            {/* <Table /> */}
+  return (
+    <div>
+      <div className="flex justify-center items-center flex-col">
+        <div className="font-dm-sans text-sm text-neutral-500 ">Specs</div>
+        <div className="font-crimson-text text-5xl my-6">Why Choose Area?</div>
+        <div className="font-dm-sans text-sm text-neutral-500 max-w-2xl text-center mb-6">
+          You need a solution that keeps up. That's why we developed Area. A
+          developer-friendly approach to streamline your business.{" "}
         </div>
-    )
-}
+        <DiscoverButton />
+      </div>
+      {/* <Table /> */}
+    </div>
+  );
+};
 
-export default SpecsSection
-
-
+export default SpecsSection;
 
 // const Table = () => {
 //     return (
@@ -45,4 +45,3 @@ export default SpecsSection
 
 //     )
 // }
-

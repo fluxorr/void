@@ -1,4 +1,4 @@
-import ModernLanding from "@/components/lab/ModernLanding/ModernLanding";
+import PlusHover from "@/components/lab/plus-hover"
 
 
 
@@ -7,7 +7,7 @@ export default function page() {
     return (
 
         <div>
-            <ModernLanding />
+            <PlusHover></PlusHover>
         </div>
 
 
