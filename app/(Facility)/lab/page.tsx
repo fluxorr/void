@@ -1,13 +1,11 @@
-import PlusHover from "@/components/lab/plus-hover"
-
-
+import Landing from "@/components/lab/relia-landing"
 
 
 export default function page() {
     return (
 
         <div>
-            <PlusHover></PlusHover>
+            <Landing />
         </div>
 
 
